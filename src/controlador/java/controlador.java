@@ -36,9 +36,9 @@ public class controlador {
                     System.out.print("Tipo de beca (NINGUNA, PARCIAL o TOTAL): ");
                     String beca = sc.nextLine();
                     
-                    // Instanciación y validación automática
-                    Alumno a = new Alumno(nombre, tipo, numero, nivel, beca);
-                    ctrl.agregarAlumno(a);
+                    
+                   
+                    
                     
                     System.out.println("\n[SISTEMA] Alumno registrado con éxito.");
                     
